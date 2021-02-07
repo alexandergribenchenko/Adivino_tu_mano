@@ -20,7 +20,7 @@ def transform_and_predict(image, model):
         prediction = model.predict(image_paso_04)
         return prediction
 
-model = tf.keras.models.load_model(Adivino_tu_mano_(Modelo).hdf5')
+model = tf.keras.models.load_model('Adivino_tu_mano_(Modelo).hdf5')
 
 st.write("""
          # !Adivino tu mano!
